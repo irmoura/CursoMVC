@@ -15,7 +15,7 @@ namespace CursoAPI.Controllers
     {
         private readonly Context _context;
 
-        public CategoriasController(Context context)
+        public  CategoriasController(Context context)
         {
             _context = context;
         }
